@@ -1,2 +1,3 @@
 FROM nginx
 COPY Code /usr/share/nginx/html/
+COPY expense.conf /etc/nginx/conf.d/expense.conf
